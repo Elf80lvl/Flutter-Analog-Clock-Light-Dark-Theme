@@ -35,11 +35,11 @@ class _TimeInHourAndMinuteState extends State<TimeInHourAndMinute> {
         Text(
           //'${format(Duration(hours: _timeOfDay.hour, minutes: _timeOfDay.minute))}',
           '${_timeOfDay.hour}:${_timeOfDay.minute}',
-          style: Theme.of(context).textTheme.headline1,
+          style: Theme.of(context).textTheme.headline4,
         ),
-        SizedBox(
-          width: 5,
-        ),
+        // SizedBox(
+        //   width: 5,
+        // ),
         // RotatedBox(
         //   quarterTurns: 3,
         //   child: Text(
